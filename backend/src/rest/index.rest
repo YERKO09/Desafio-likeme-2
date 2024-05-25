@@ -1,0 +1,27 @@
+GET http://127.0.0.1:3000/api/posts/get-all
+Content-Type: application/json
+
+###
+
+POST http://127.0.0.1:3000/api/posts/add
+Content-Type: application/json
+
+{
+    "titulo": "post1",
+    "img": "123",
+    "descripcion": "123",
+    "likes": "dos"
+}
+
+###
+# PUT http://127.0.0.1:3000/api/posts/update/3?likes=3
+PUT http://127.0.0.1:3000/api/posts/update/3
+Content-Type: application/json
+
+{
+    "likes": 12
+}
+
+###
+DELETE http://127.0.0.1:3000/api/posts/delete/9
+Content-Type: application/json

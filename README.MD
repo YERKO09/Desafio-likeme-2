@@ -1,5 +1,5 @@
-# Likeme
-    Desafío 3, Acceso a Base de Datos con Node (Parte I)
+# Likeme 2
+    Desafío 4, Acceso a Base de Datos con Node (Parte 2)
 ## Detalles
 * APP hecha en **commonJS**.
 * Instrucciones
